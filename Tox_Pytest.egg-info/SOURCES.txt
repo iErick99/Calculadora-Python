@@ -1,0 +1,9 @@
+Calculadora.py
+main.py
+setup.py
+test_operaciones.py
+test_operaciones2.py
+Tox_Pytest.egg-info/PKG-INFO
+Tox_Pytest.egg-info/SOURCES.txt
+Tox_Pytest.egg-info/dependency_links.txt
+Tox_Pytest.egg-info/top_level.txt
