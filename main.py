@@ -18,15 +18,14 @@ if __name__ == '__main__':
 
         opcion = input("Opción: ")
 
-        if int(opcion) == 5:
-            break
-        else:
-            valor1 = input("Ingrese el valor 1: ")
-            valor2 = input("Ingrese el valor 2: ")
         try:
             int(opcion)
         except:
             print('La opción debe ser un dígito')
-
-        else:
-            print('El resultado es: ', calculadora.switch(int(opcion), int(valor1), int(valor2)))
+        else:    
+            if int(opcion) == 5:
+                break
+            else:
+                valor1 = input("Ingrese el valor 1: ")
+                valor2 = input("Ingrese el valor 2: ")    
+                print('El resultado es: ', calculadora.switch(int(opcion), int(valor1), int(valor2)))
